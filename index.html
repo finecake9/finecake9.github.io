@@ -1,0 +1,1769 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>人体1000tr - 高清人体科学影像品牌官网 | 专业解剖与健康科普平台</title>
+<meta name="description" content="人体1000tr官方网站，专注人体科学与健康科普的高清视频内容平台，汇聚专业创作者，呈现解剖、运动、康复与生命教育的精品内容，打造值得信赖的内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b3b4f'/%3E%3Ccircle cx='32' cy='20' r='8' fill='%233ee6c4'/%3E%3Cpath d='M20 54c0-10 5-16 12-16s12 6 12 16' stroke='%233ee6c4' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --h1k-deep: #0b3b4f;
+    --h1k-ink: #10222b;
+    --h1k-teal: #0f7c8c;
+    --h1k-mint: #3ee6c4;
+    --h1k-mist: #eef7f8;
+    --h1k-line: #d3e5e8;
+    --h1k-gray: #5c7480;
+    --h1k-card: #ffffff;
+    --h1k-glow: #d8fbef;
+    --h1k-warn: #e06b4a;
+    --h1k-radius: 16px;
+    --h1k-shadow: 0 12px 32px rgba(11, 59, 79, 0.10);
+    --h1k-shadow-sm: 0 4px 14px rgba(11, 59, 79, 0.08);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+    color: var(--h1k-ink);
+    background: linear-gradient(180deg, #f4fbfc 0%, #ffffff 26%, #f7fdfe 100%);
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  h1, h2, h3, h4 { margin: 0; line-height: 1.3; }
+  p { margin: 0 0 12px; }
+  .h1k-container { width: min(1180px, 92vw); margin: 0 auto; }
+
+  /* 吸顶：公告条 + 页头 */
+  .h1k-sticky-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+  }
+  .h1k-announce {
+    background: linear-gradient(90deg, #0b3b4f, #0f7c8c 60%, #126a7a);
+    color: #e9feff;
+    font-size: 13.5px;
+    letter-spacing: .2px;
+  }
+  .h1k-announce-inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    flex-wrap: wrap;
+  }
+  .h1k-announce-tag {
+    background: var(--h1k-mint);
+    color: #06323f;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 2px 9px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .h1k-announce p { margin: 0; font-size: 13.5px; }
+  .h1k-announce strong { color: #bff9e9; }
+
+  .h1k-header {
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--h1k-line);
+  }
+  .h1k-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 0;
+  }
+  .h1k-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 19px;
+    color: var(--h1k-deep);
+    letter-spacing: .3px;
+    white-space: nowrap;
+  }
+  .h1k-logo-mark {
+    width: 38px; height: 38px;
+    border-radius: 11px;
+    background: radial-gradient(circle at 30% 25%, #27c5ae, #0b3b4f);
+    display: grid; place-items: center;
+    color: #d6fff5;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .5px;
+  }
+  .h1k-logo small {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--h1k-gray);
+    letter-spacing: 1.5px;
+  }
+  .h1k-nav {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
+  .h1k-nav a {
+    font-size: 14.5px;
+    font-weight: 500;
+    padding: 7px 12px;
+    border-radius: 9px;
+    color: #274a58;
+    transition: background .2s, color .2s;
+    white-space: nowrap;
+  }
+  .h1k-nav a:hover { background: var(--h1k-mist); color: var(--h1k-teal); }
+  .h1k-search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--h1k-mist);
+    border: 1px solid var(--h1k-line);
+    border-radius: 999px;
+    padding: 6px 8px 6px 14px;
+    min-width: 190px;
+  }
+  .h1k-search input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 13.5px;
+    width: 100%;
+    color: var(--h1k-ink);
+    font-family: inherit;
+  }
+  .h1k-search button {
+    border: none;
+    background: var(--h1k-teal);
+    color: #fff;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    flex: none;
+    transition: background .2s;
+  }
+  .h1k-search button:hover { background: var(--h1k-deep); }
+  .h1k-burger {
+    display: none;
+    border: 1px solid var(--h1k-line);
+    background: #fff;
+    border-radius: 10px;
+    width: 40px; height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--h1k-deep);
+    flex: none;
+  }
+  .h1k-search-feedback {
+    font-size: 12.5px;
+    color: var(--h1k-teal);
+    padding: 0 0 8px;
+    display: none;
+  }
+  .h1k-search-feedback.is-on { display: block; }
+
+  /* 首屏 */
+  .h1k-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 54px 0 60px;
+    background:
+      radial-gradient(900px 420px at 85% -10%, #d6f7f1 0%, transparent 62%),
+      radial-gradient(700px 380px at 8% 100%, #e2f1f8 0%, transparent 60%),
+      linear-gradient(180deg, #f4fbfc, #ffffff);
+  }
+  .h1k-hero-grid {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 44px;
+    align-items: center;
+  }
+  .h1k-hero-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: var(--h1k-teal);
+    background: #e6faf5;
+    border: 1px solid #bdefe4;
+    padding: 5px 14px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+  .h1k-hero h1 {
+    font-size: clamp(38px, 5.4vw, 62px);
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: var(--h1k-deep);
+    margin-bottom: 14px;
+  }
+  .h1k-hero h1 em {
+    font-style: normal;
+    background: linear-gradient(100deg, var(--h1k-teal), #27c5ae);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .h1k-hero-slogan {
+    font-size: clamp(17px, 2vw, 21px);
+    font-weight: 600;
+    color: #1c4353;
+    margin-bottom: 18px;
+  }
+  .h1k-hero-desc {
+    font-size: 15.5px;
+    color: #41616e;
+    max-width: 620px;
+    margin-bottom: 22px;
+  }
+  .h1k-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  .h1k-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-size: 14.5px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: transform .18s, box-shadow .18s, background .2s;
+    font-family: inherit;
+  }
+  .h1k-btn-primary {
+    background: linear-gradient(120deg, var(--h1k-teal), #17a58e);
+    color: #fff;
+    box-shadow: 0 10px 24px rgba(15, 124, 140, 0.28);
+  }
+  .h1k-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(15, 124, 140, 0.34); }
+  .h1k-btn-ghost {
+    background: #fff;
+    color: var(--h1k-deep);
+    border-color: var(--h1k-line);
+  }
+  .h1k-btn-ghost:hover { transform: translateY(-2px); box-shadow: var(--h1k-shadow-sm); border-color: var(--h1k-teal); }
+  .h1k-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    max-width: 620px;
+  }
+  .h1k-stat {
+    background: rgba(255, 255, 255, .82);
+    border: 1px solid var(--h1k-line);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+  .h1k-stat b {
+    display: block;
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--h1k-deep);
+    letter-spacing: -.5px;
+  }
+  .h1k-stat span { font-size: 12.5px; color: var(--h1k-gray); }
+
+  .h1k-hero-visual {
+    position: relative;
+  }
+  .h1k-hero-figure {
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 26px 60px rgba(11, 59, 79, 0.22);
+    border: 1px solid #cfe9ec;
+    background: #eaf7f6;
+  }
+  .h1k-hero-figure img { width: 100%; height: auto; }
+  .h1k-hero-badge {
+    position: absolute;
+    left: -16px;
+    bottom: 24px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 10px 16px;
+    box-shadow: var(--h1k-shadow);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--h1k-deep);
+    border: 1px solid var(--h1k-line);
+  }
+  .h1k-hero-badge i {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: var(--h1k-glow);
+    display: grid; place-items: center;
+    font-style: normal;
+    color: var(--h1k-teal);
+    font-size: 14px;
+  }
+
+  /* 通用区块 */
+  .h1k-section { padding: 62px 0; }
+  .h1k-section-head { margin-bottom: 32px; max-width: 760px; }
+  .h1k-eyebrow {
+    font-size: 12.5px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    color: var(--h1k-teal);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .h1k-section-head h2 {
+    font-size: clamp(25px, 3vw, 34px);
+    font-weight: 900;
+    color: var(--h1k-deep);
+    letter-spacing: -.6px;
+    margin-bottom: 10px;
+  }
+  .h1k-section-head p { color: #4a6874; font-size: 15px; margin: 0; }
+
+  /* 焦点内容 */
+  .h1k-focus-grid {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 28px;
+    align-items: stretch;
+  }
+  .h1k-focus-main {
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-radius: var(--h1k-radius);
+    overflow: hidden;
+    box-shadow: var(--h1k-shadow-sm);
+    display: flex;
+    flex-direction: column;
+    transition: transform .22s, box-shadow .22s;
+  }
+  .h1k-focus-main:hover { transform: translateY(-4px); box-shadow: var(--h1k-shadow); }
+  .h1k-focus-main img { width: 100%; aspect-ratio: 16/10; object-fit: cover; }
+  .h1k-focus-body { padding: 20px 22px 22px; }
+  .h1k-tag-row { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 10px; }
+  .h1k-tag {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--h1k-teal);
+    background: #e8f8f5;
+    border: 1px solid #c8ece3;
+    padding: 2px 9px;
+    border-radius: 999px;
+  }
+  .h1k-focus-main h3 { font-size: 21px; font-weight: 800; color: var(--h1k-deep); margin-bottom: 8px; }
+  .h1k-focus-main p { font-size: 14px; color: #4d6c78; margin-bottom: 12px; }
+  .h1k-meta { font-size: 12.5px; color: var(--h1k-gray); display: flex; flex-wrap: wrap; gap: 12px; }
+  .h1k-meta b { color: var(--h1k-teal); font-weight: 700; }
+
+  .h1k-focus-list { display: flex; flex-direction: column; gap: 14px; }
+  .h1k-focus-item {
+    display: grid;
+    grid-template-columns: 64px minmax(0,1fr) auto;
+    gap: 14px;
+    align-items: center;
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-radius: 14px;
+    padding: 14px 16px;
+    transition: border-color .2s, box-shadow .2s, transform .2s;
+  }
+  .h1k-focus-item:hover { border-color: #9fd9d0; box-shadow: var(--h1k-shadow-sm); transform: translateX(3px); }
+  .h1k-focus-thumb {
+    width: 64px; height: 64px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #dff3f2;
+    flex: none;
+  }
+  .h1k-focus-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .h1k-focus-item h4 { font-size: 15.5px; font-weight: 700; color: var(--h1k-deep); margin-bottom: 4px; }
+  .h1k-focus-item p { font-size: 12.8px; color: #557480; margin: 0; }
+  .h1k-mini-stats { font-size: 12px; color: var(--h1k-gray); display: flex; gap: 10px; margin-top: 5px; }
+
+  /* 视频流 */
+  .h1k-filter-row { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 26px; }
+  .h1k-chip {
+    border: 1px solid var(--h1k-line);
+    background: #fff;
+    color: #35606e;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all .18s;
+    font-family: inherit;
+  }
+  .h1k-chip:hover { border-color: var(--h1k-teal); color: var(--h1k-teal); }
+  .h1k-chip.is-active { background: var(--h1k-deep); border-color: var(--h1k-deep); color: #fff; }
+
+  .h1k-video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+  }
+  .h1k-video-card {
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-radius: var(--h1k-radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .22s, box-shadow .22s;
+  }
+  .h1k-video-card:hover { transform: translateY(-5px); box-shadow: var(--h1k-shadow); }
+  .h1k-video-cover { position: relative; background: #dff3f2; }
+  .h1k-video-cover img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+  .h1k-play {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, transparent 40%, rgba(4,32,42,.42));
+    opacity: 0;
+    transition: opacity .22s;
+  }
+  .h1k-video-card:hover .h1k-play { opacity: 1; }
+  .h1k-play span {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.92);
+    display: grid; place-items: center;
+    color: var(--h1k-deep);
+    font-size: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.2);
+  }
+  .h1k-duration {
+    position: absolute;
+    right: 10px; bottom: 10px;
+    background: rgba(4,32,42,.78);
+    color: #eafffb;
+    font-size: 11.5px;
+    padding: 2px 8px;
+    border-radius: 6px;
+  }
+  .h1k-video-body { padding: 16px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+  .h1k-video-body h3 { font-size: 16.5px; font-weight: 800; color: var(--h1k-deep); margin-bottom: 7px; }
+  .h1k-video-body p { font-size: 13px; color: #527079; margin-bottom: 12px; flex: 1; }
+  .h1k-video-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    border-top: 1px dashed var(--h1k-line);
+    padding-top: 12px;
+    font-size: 12.2px;
+    color: var(--h1k-gray);
+  }
+  .h1k-video-actions { display: flex; gap: 6px; }
+  .h1k-icon-btn {
+    border: 1px solid var(--h1k-line);
+    background: #fbfeff;
+    border-radius: 9px;
+    padding: 4px 9px;
+    font-size: 12px;
+    color: #3a6070;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all .18s;
+    font-family: inherit;
+  }
+  .h1k-icon-btn:hover { border-color: var(--h1k-teal); color: var(--h1k-teal); }
+  .h1k-icon-btn.is-liked { background: #e5faf4; border-color: #7fd8c6; color: #0c7a68; }
+  .h1k-icon-btn.is-saved { background: #eaf3ff; border-color: #a8c6ea; color: #275a9a; }
+
+  /* 品牌解析长文 */
+  .h1k-article-wrap {
+    background: linear-gradient(180deg, #ffffff, #f3fbfb);
+    border: 1px solid var(--h1k-line);
+    border-radius: 22px;
+    padding: 40px clamp(20px, 4vw, 54px);
+    box-shadow: var(--h1k-shadow-sm);
+  }
+  .h1k-article-wrap h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--h1k-deep);
+    margin: 26px 0 10px;
+    padding-left: 13px;
+    border-left: 4px solid var(--h1k-mint);
+  }
+  .h1k-article-wrap h3:first-of-type { margin-top: 6px; }
+  .h1k-article-wrap p { font-size: 15px; color: #41606c; }
+  .h1k-article-wrap strong { color: var(--h1k-teal); font-weight: 700; }
+  .h1k-pull {
+    background: #eafaf6;
+    border: 1px solid #c6ece2;
+    border-radius: 14px;
+    padding: 16px 20px;
+    font-size: 14.5px;
+    color: #145e58;
+    margin: 18px 0;
+  }
+  .h1k-article-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin: 20px 0;
+  }
+  .h1k-article-duo figure { margin: 0; }
+  .h1k-article-duo img { width: 100%; aspect-ratio: 16/10; object-fit: cover; border-radius: 14px; border: 1px solid var(--h1k-line); }
+  .h1k-article-duo figcaption { font-size: 12.5px; color: var(--h1k-gray); margin-top: 6px; }
+
+  /* 专题 */
+  .h1k-topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+  .h1k-topic-card {
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-radius: var(--h1k-radius);
+    padding: 22px;
+    transition: box-shadow .2s, transform .2s, border-color .2s;
+  }
+  .h1k-topic-card:hover { box-shadow: var(--h1k-shadow); transform: translateY(-3px); border-color: #a9dcd3; }
+  .h1k-topic-card.is-wide { grid-column: span 2; display: grid; grid-template-columns: 5fr 7fr; gap: 22px; align-items: center; }
+  .h1k-topic-card.is-wide figure { margin: 0; border-radius: 14px; overflow: hidden; }
+  .h1k-topic-card.is-wide img { width: 100%; aspect-ratio: 16/10; object-fit: cover; }
+  .h1k-topic-status {
+    display: inline-block;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #0c7a68;
+    background: #e2faf3;
+    border-radius: 999px;
+    padding: 2px 10px;
+    margin-bottom: 9px;
+  }
+  .h1k-topic-status.is-soon { color: #9a5a10; background: #fdf1dd; }
+  .h1k-topic-card h3 { font-size: 18.5px; font-weight: 800; color: var(--h1k-deep); margin-bottom: 8px; }
+  .h1k-topic-card > p { font-size: 13.5px; color: #54717c; }
+  .h1k-topic-items { margin-top: 12px; border-top: 1px dashed var(--h1k-line); padding-top: 12px; }
+  .h1k-topic-items li {
+    font-size: 13px;
+    color: #3d5f6c;
+    padding: 5px 0 5px 18px;
+    position: relative;
+  }
+  .h1k-topic-items li::before {
+    content: "";
+    position: absolute;
+    left: 2px; top: 13px;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--h1k-mint);
+  }
+
+  /* 作者矩阵 */
+  .h1k-author-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .h1k-author-card {
+    display: flex;
+    gap: 16px;
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-radius: var(--h1k-radius);
+    padding: 18px;
+    transition: box-shadow .2s, transform .2s;
+  }
+  .h1k-author-card:hover { box-shadow: var(--h1k-shadow); transform: translateY(-3px); }
+  .h1k-avatar {
+    width: 58px; height: 58px;
+    border-radius: 50%;
+    display: grid; place-items: center;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+    flex: none;
+    letter-spacing: -.5px;
+  }
+  .h1k-avatar.a1 { background: linear-gradient(135deg, #0f7c8c, #3ee6c4); }
+  .h1k-avatar.a2 { background: linear-gradient(135deg, #2b5876, #4e8fb3); }
+  .h1k-avatar.a3 { background: linear-gradient(135deg, #0b6b5f, #7ac74f); }
+  .h1k-avatar.a4 { background: linear-gradient(135deg, #3d5a80, #98c1d9); }
+  .h1k-avatar.a5 { background: linear-gradient(135deg, #1b4332, #52b788); }
+  .h1k-avatar.a6 { background: linear-gradient(135deg, #123c69, #3aa6a6); }
+  .h1k-author-name { font-size: 15.5px; font-weight: 800; color: var(--h1k-deep); }
+  .h1k-author-field { font-size: 12px; color: var(--h1k-teal); font-weight: 600; margin-bottom: 5px; }
+  .h1k-author-card p { font-size: 13px; color: #54717c; margin-bottom: 8px; }
+  .h1k-author-stats { display: flex; flex-wrap: wrap; gap: 10px; font-size: 11.8px; color: var(--h1k-gray); }
+  .h1k-author-btn {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--h1k-teal);
+    background: #eefaf7;
+    border: 1px solid #c6ece2;
+    border-radius: 8px;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all .18s;
+  }
+  .h1k-author-btn:hover { background: var(--h1k-teal); color: #fff; border-color: var(--h1k-teal); }
+
+  /* 评论区：双列短评 */
+  .h1k-comment-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .h1k-comment {
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-left: 4px solid var(--h1k-mint);
+    border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .h1k-comment:nth-child(3n+2) { border-left-color: #7fb2d6; }
+  .h1k-comment:nth-child(3n) { border-left-color: #b7d88a; }
+  .h1k-comment-top { display: flex; align-items: center; gap: 9px; margin-bottom: 7px; }
+  .h1k-cavatar {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: #e3f2f4;
+    color: var(--h1k-teal);
+    display: grid; place-items: center;
+    font-size: 13px; font-weight: 800;
+    flex: none;
+  }
+  .h1k-comment-top b { font-size: 13.5px; color: var(--h1k-deep); }
+  .h1k-comment-top span { font-size: 11.5px; color: #8aa2ab; margin-left: auto; }
+  .h1k-comment p { font-size: 13.2px; color: #47656f; margin: 0; }
+  .h1k-comment .h1k-cmeta { margin-top: 8px; font-size: 11.5px; color: #8aa2ab; display: flex; gap: 12px; }
+
+  /* 企业动态 + 合作 + FAQ 融合辅助区 */
+  .h1k-aux-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; align-items: start; }
+  .h1k-news-list li {
+    display: flex;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px dashed var(--h1k-line);
+  }
+  .h1k-news-date {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--h1k-teal);
+    background: #eafaf6;
+    border-radius: 8px;
+    padding: 5px 9px;
+    height: fit-content;
+    white-space: nowrap;
+  }
+  .h1k-news-list h4 { font-size: 14.5px; font-weight: 700; color: var(--h1k-deep); margin-bottom: 3px; }
+  .h1k-news-list p { font-size: 12.8px; color: #5b7783; margin: 0; }
+
+  .h1k-partner-wall { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+  .h1k-partner {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #35606e;
+    background: #f4fbfc;
+    border: 1px solid var(--h1k-line);
+    border-radius: 10px;
+    padding: 9px 14px;
+  }
+
+  .h1k-faq details {
+    background: #fff;
+    border: 1px solid var(--h1k-line);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .h1k-faq summary {
+    cursor: pointer;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--h1k-deep);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .h1k-faq summary::-webkit-details-marker { display: none; }
+  .h1k-faq summary::after { content: "+"; color: var(--h1k-teal); font-weight: 900; }
+  .h1k-faq details[open] summary::after { content: "–"; }
+  .h1k-faq details p { padding: 0 16px 14px; font-size: 13.2px; color: #4f6c77; margin: 0; }
+
+  /* 投稿条 */
+  .h1k-cta {
+    background: linear-gradient(120deg, #0b3b4f, #0f7c8c 70%, #159b91);
+    border-radius: 24px;
+    padding: 38px clamp(22px, 4vw, 46px);
+    color: #e9feff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+  }
+  .h1k-cta h2 { font-size: clamp(22px, 2.6vw, 29px); font-weight: 900; margin-bottom: 8px; color: #fff; }
+  .h1k-cta p { font-size: 14px; color: #c9f2ee; margin: 0; max-width: 560px; }
+  .h1k-cta .h1k-btn-ghost { background: #fff; color: var(--h1k-deep); border-color: #fff; }
+
+  /* 页脚 */
+  .h1k-footer {
+    background: #082a37;
+    color: #a9c8d1;
+    padding: 46px 0 26px;
+    margin-top: 20px;
+    font-size: 13.5px;
+  }
+  .h1k-footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.4fr; gap: 28px; }
+  .h1k-footer h4 { color: #e6f8f6; font-size: 14.5px; margin-bottom: 12px; }
+  .h1k-footer .h1k-logo { color: #eafcf8; margin-bottom: 10px; }
+  .h1k-footer .h1k-logo small { color: #7fa6b0; }
+  .h1k-footer li { padding: 4px 0; }
+  .h1k-footer a:hover { color: var(--h1k-mint); }
+  .h1k-footer-bottom {
+    border-top: 1px solid #123f4e;
+    margin-top: 30px;
+    padding-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    justify-content: space-between;
+    font-size: 12.3px;
+    color: #78a2ac;
+  }
+
+  /* Toast / Modal / 回顶 */
+  .h1k-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 82px;
+    transform: translate(-50%, 20px);
+    background: #082a37;
+    color: #e8fffa;
+    font-size: 13.5px;
+    padding: 11px 20px;
+    border-radius: 999px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.24);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s, transform .25s;
+    z-index: 120;
+    max-width: 88vw;
+  }
+  .h1k-toast.is-show { opacity: 1; transform: translate(-50%, 0); }
+
+  .h1k-modal-mask {
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 30, 40, .55);
+    backdrop-filter: blur(3px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 130;
+  }
+  .h1k-modal-mask.is-open { display: flex; }
+  .h1k-modal {
+    background: #fff;
+    border-radius: 18px;
+    padding: 26px;
+    width: min(480px, 94vw);
+    box-shadow: 0 30px 80px rgba(0,0,0,.3);
+    animation: h1kPop .22s ease;
+  }
+  @keyframes h1kPop { from { transform: translateY(14px); opacity: .4; } to { transform: none; opacity: 1; } }
+  .h1k-modal h3 { font-size: 19px; font-weight: 800; color: var(--h1k-deep); margin-bottom: 8px; }
+  .h1k-modal p { font-size: 13.5px; color: #4f6c77; }
+  .h1k-modal label { font-size: 12.5px; font-weight: 700; color: #35606e; display: block; margin: 12px 0 5px; }
+  .h1k-modal input, .h1k-modal textarea {
+    width: 100%;
+    border: 1px solid var(--h1k-line);
+    border-radius: 10px;
+    padding: 9px 12px;
+    font-size: 13.5px;
+    font-family: inherit;
+    outline: none;
+    color: var(--h1k-ink);
+    resize: vertical;
+  }
+  .h1k-modal input:focus, .h1k-modal textarea:focus { border-color: var(--h1k-teal); }
+  .h1k-modal-actions { display: flex; gap: 10px; margin-top: 18px; justify-content: flex-end; }
+
+  .h1k-top-btn {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    border: none;
+    background: var(--h1k-deep);
+    color: #d6fff5;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 12px 26px rgba(11,59,79,.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s, transform .2s;
+    z-index: 100;
+  }
+  .h1k-top-btn.is-show { opacity: 1; pointer-events: auto; }
+  .h1k-top-btn:hover { transform: translateY(-3px); }
+
+  /* 滚动偏移，避让吸顶条 */
+  section[id], div[id].h1k-anchor { scroll-margin-top: 118px; }
+
+  @media (max-width: 960px) {
+    .h1k-hero-grid { grid-template-columns: 1fr; gap: 30px; }
+    .h1k-focus-grid { grid-template-columns: 1fr; }
+    .h1k-video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .h1k-topic-card.is-wide { grid-column: span 1; grid-template-columns: 1fr; }
+    .h1k-author-grid { grid-template-columns: 1fr; }
+    .h1k-comment-grid { grid-template-columns: 1fr; }
+    .h1k-aux-grid { grid-template-columns: 1fr; }
+    .h1k-footer-grid { grid-template-columns: 1fr 1fr; }
+    .h1k-article-duo { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .h1k-nav {
+      display: none;
+      order: 5;
+      width: 100%;
+      flex-direction: column;
+      background: #fff;
+      border: 1px solid var(--h1k-line);
+      border-radius: 14px;
+      padding: 8px;
+      margin-top: 8px;
+    }
+    .h1k-nav.is-open { display: flex; }
+    .h1k-header-inner { flex-wrap: wrap; }
+    .h1k-search { margin-left: auto; min-width: 0; flex: 1 1 130px; }
+    .h1k-burger { display: block; }
+    .h1k-hero { padding: 36px 0 44px; }
+    .h1k-hero-stats { grid-template-columns: 1fr 1fr; }
+    .h1k-video-grid { grid-template-columns: 1fr; }
+    .h1k-topic-grid { grid-template-columns: 1fr; }
+    .h1k-section { padding: 44px 0; }
+    .h1k-hero-badge { left: 8px; bottom: 8px; }
+    .h1k-focus-item { grid-template-columns: 54px minmax(0,1fr); }
+    .h1k-focus-item .h1k-mini-stats { grid-column: span 2; }
+    .h1k-focus-thumb { width: 54px; height: 54px; }
+  }
+  @media (max-width: 480px) {
+    .h1k-hero-stats { grid-template-columns: 1fr; }
+    .h1k-footer-grid { grid-template-columns: 1fr; }
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="h1k-sticky-wrap">
+  <div class="h1k-announce">
+    <div class="h1k-container h1k-announce-inner">
+      <span class="h1k-announce-tag">官方发布</span>
+      <p><strong>「骨骼与关节高清解剖课」</strong>第二季上线 4 集 · <strong>「运动康复实战」</strong>专题开放报名 · 11 月创作者征集赛进入投票阶段</p>
+    </div>
+  </div>
+  <header class="h1k-header">
+    <div class="h1k-container h1k-header-inner">
+      <a class="h1k-logo" href="#top">
+        <span class="h1k-logo-mark">1000tr</span>
+        <span>人体1000tr<small>HUMAN BODY</small></span>
+      </a>
+      <button class="h1k-burger" id="h1kBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+      <nav class="h1k-nav" id="h1kNav" aria-label="主导航">
+        <a href="#focus">焦点内容</a>
+        <a href="#videos">视频专区</a>
+        <a href="#topics">专题企划</a>
+        <a href="#authors">创作者</a>
+        <a href="#voices">社区口碑</a>
+        <a href="#faq">帮助中心</a>
+      </nav>
+      <div class="h1k-search">
+        <input type="text" id="h1kSearchInput" placeholder="搜索人体科普视频" aria-label="搜索视频内容">
+        <button id="h1kSearchBtn" aria-label="执行搜索">⌕</button>
+      </div>
+    </div>
+    <div class="h1k-container">
+      <div class="h1k-search-feedback" id="h1kSearchFeedback" role="status"></div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- 首屏：左文右侧大图 + 数据条 -->
+  <section class="h1k-hero" aria-labelledby="h1kHeroTitle">
+    <div class="h1k-container h1k-hero-grid">
+      <div>
+        <span class="h1k-hero-kicker">官方网站 · 高清人体科学影像</span>
+        <h1 id="h1kHeroTitle">人体1000tr</h1>
+        <p class="h1k-hero-slogan">看见身体的 1000 种真实，读懂生命的每一次运转。</p>
+        <p class="h1k-hero-desc">
+          作为深耕人体科学与健康教育垂直领域的原创视频品牌，人体1000tr 官方网站持续输出高清解剖演示、运动康复实录、健康科普访谈与生命教育纪录影像。我们以专业创作者为核心，构建企业级内容生态，让每一次好奇都能获得严谨而温暖的回答，成为用户首选的健康认知入口。
+        </p>
+        <div class="h1k-hero-actions">
+          <a class="h1k-btn h1k-btn-primary" href="#videos">进入视频专区 →</a>
+          <button class="h1k-btn h1k-btn-ghost" id="h1kSubmitBtnHero">投稿与报名</button>
+          <a class="h1k-btn h1k-btn-ghost" href="#topics">查看专题企划</a>
+        </div>
+        <div class="h1k-hero-stats">
+          <div class="h1k-stat"><b data-count="1280">1280+</b><span>原创高清视频作品</span></div>
+          <div class="h1k-stat"><b data-count="46">46</b><span>签约专业创作者</span></div>
+          <div class="h1k-stat"><b data-count="213">213万</b><span>月度学习观看人次</span></div>
+        </div>
+      </div>
+      <div class="h1k-hero-visual">
+        <div class="h1k-hero-figure">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 720'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230b3b4f'/%3E%3Cstop offset='1' stop-color='%23136271'/%3E%3C/linearGradient%3E%3CradialGradient id='glow' cx='50%25' cy='38%25' r='55%25'%3E%3Cstop offset='0' stop-color='%233ee6c4' stop-opacity='.55'/%3E%3Cstop offset='1' stop-color='%233ee6c4' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='640' height='720' fill='url(%23bg)'/%3E%3Crect width='640' height='720' fill='url(%23glow)'/%3E%3Cg stroke='%233ee6c4' stroke-opacity='.28' stroke-width='1.4' fill='none'%3E%3Ccircle cx='320' cy='300' r='96'/%3E%3Ccircle cx='320' cy='300' r='150'/%3E%3Ccircle cx='320' cy='300' r='206'/%3E%3Cpath d='M320 94v412M114 300h412'/%3E%3C/g%3E%3Cg fill='none' stroke='%23d8fbef' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='320' cy='188' r='34'/%3E%3Cpath d='M320 222v116M320 262l-52 30M320 262l52 30M320 338l-42 74M320 338l42 74'/%3E%3Cpath d='M268 292l-26 54M372 292l26 54' stroke-opacity='.75'/%3E%3C/g%3E%3Cg fill='%233ee6c4'%3E%3Ccircle cx='320' cy='436' r='6'/%3E%3Ccircle cx='238' cy='366' r='5'/%3E%3Ccircle cx='402' cy='366' r='5'/%3E%3Ccircle cx='320' cy='300' r='5'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%23a8f0e3' font-size='17' font-weight='700'%3E%3Ctext x='62' y='96'%3EHUMAN BODY 1000TR%3C/text%3E%3Ctext x='62' y='126' font-size='13' font-weight='400' fill='%2389c9c7'%3EANATOMY / MOTION / RECOVERY%3C/text%3E%3Ctext x='62' y='656' font-size='15'%3E高清解剖 · 运动康复 · 生命影像%3C/text%3E%3C/g%3E%3Cg stroke='%233ee6c4' stroke-width='3' stroke-opacity='.8'%3E%3Cpath d='M470 640h96M540 614l26 26-26 26' fill='none'/%3E%3C/g%3E%3C/svg%3E" alt="人体1000tr 品牌主视觉：深青色背景中的人体结构线稿与轨道环" width="640" height="720">
+        </div>
+        <div class="h1k-hero-badge"><i>◉</i> 4K 高清 · 专业医学顾问审校</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="h1k-section" id="focus">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">FOCUS · 编辑精选</div>
+        <h2>本周焦点：人体1000tr 编辑部重点推荐</h2>
+        <p>由内容委员会与医学顾问共同评审，从 1280 部原创作品中精选出本周最值得观看的人体科学影像，覆盖解剖、运动与康复场景。</p>
+      </div>
+      <div class="h1k-focus-grid">
+        <article class="h1k-focus-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Crect width='800' height='500' fill='%23eef8f7'/%3E%3Cg stroke='%230f7c8c' stroke-width='2' fill='none' opacity='.9'%3E%3Cpath d='M0 380c120-40 200-110 300-90s140 70 240 40 160-80 260-60'/%3E%3Cpath d='M0 420c120-40 200-110 300-90s140 70 240 40 160-80 260-60' stroke='%233ee6c4'/%3E%3C/g%3E%3Cg fill='none' stroke='%230b3b4f' stroke-width='9' stroke-linecap='round'%3E%3Ccircle cx='400' cy='140' r='34'/%3E%3Cpath d='M400 174v120M400 212l-58 34M400 212l58 34M400 294l-44 74M400 294l44 74'/%3E%3C/g%3E%3Cg fill='%230f7c8c'%3E%3Ccircle cx='342' cy='246' r='7'/%3E%3Ccircle cx='458' cy='246' r='7'/%3E%3Ccircle cx='400' cy='212' r='7'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%230b3b4f' font-size='20' font-weight='800'%3E%3Ctext x='44' y='66'%3E骨骼与关节 · 第二季%3C/text%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%235c7480' font-size='14'%3E%3Ctext x='44' y='92'%3E4K 解剖演示 / 医学顾问审校 / 逐帧标注%3C/text%3E%3C/g%3E%3C/svg%3E" alt="骨骼与关节第二季解剖演示封面插图" width="800" height="500">
+          <div class="h1k-focus-body">
+            <div class="h1k-tag-row">
+              <span class="h1k-tag">重点专题</span>
+              <span class="h1k-tag">高清解剖</span>
+              <span class="h1k-tag">知识科普</span>
+            </div>
+            <h3>《骨骼与关节·第二季》第 4 集：肩关节如何在 180° 抬手中保持稳定</h3>
+            <p>从肩胛骨节律到盂肱关节滚动滑动，创作者用半透明三维模型拆解抬臂全过程，并配合真人动作演示与损伤风险提示。全片 4K 高清拍摄，逐帧标注关键结构，适合康复师、健身教练与普通学习者反复观看。</p>
+            <div class="h1k-meta">
+              <span>作者：<b>陆知衡</b></span>
+              <span>播放 <b>38.6万</b></span>
+              <span>收藏 <b>2.7万</b></span>
+              <span>时长 18:42</span>
+            </div>
+          </div>
+        </article>
+        <div class="h1k-focus-list">
+          <article class="h1k-focus-item">
+            <div class="h1k-focus-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23e2f1f8'/%3E%3Cpath d='M40 160c20-46 46-70 60-70s40 24 60 70' fill='none' stroke='%232b5876' stroke-width='11' stroke-linecap='round'/%3E%3Ccircle cx='100' cy='58' r='22' fill='%232b5876'/%3E%3Ccircle cx='100' cy='108' r='7' fill='%233ee6c4'/%3E%3C/svg%3E" alt="跑者膝关节受力解析缩略图" width="200" height="200">
+            </div>
+            <div>
+              <h4>跑者膝关节：每一步落地到底承受了多少体重</h4>
+              <p>用测力台数据还原跑步落地冲击，给出 3 个可执行的落地姿势调整建议。</p>
+              <div class="h1k-mini-stats"><span>作者 沈一舟</span><span>播放 21.4万</span><span>点赞 1.8万</span></div>
+            </div>
+            <button class="h1k-icon-btn" data-like aria-label="点赞这篇内容">♡ 赞</button>
+          </article>
+          <article class="h1k-focus-item">
+            <div class="h1k-focus-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23f0f7f1'/%3E%3Cg fill='none' stroke='%230b6b5f' stroke-width='9' stroke-linecap='round'%3E%3Cpath d='M58 150V72a24 24 0 0148 0v78'/%3E%3Cpath d='M130 150V92a20 20 0 0140 0v58' stroke='%237ac74f'/%3E%3C/g%3E%3Ccircle cx='82' cy='166' r='8' fill='%230b6b5f'/%3E%3Ccircle cx='150' cy='166' r='8' fill='%237ac74f'/%3E%3C/svg%3E" alt="久坐人群脊柱侧弯自查缩略图" width="200" height="200">
+            </div>
+            <div>
+              <h4>久坐十年：一张椅子如何改变你的脊柱排列</h4>
+              <p>从骨盆前倾到胸椎后凸，给出办公室场景下的 5 组微运动方案。</p>
+              <div class="h1k-mini-stats"><span>作者 苏清和</span><span>播放 17.9万</span><span>收藏 1.3万</span></div>
+            </div>
+            <button class="h1k-icon-btn" data-save aria-label="收藏这篇内容">♡ 藏</button>
+          </article>
+          <article class="h1k-focus-item">
+            <div class="h1k-focus-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23e8f4fb'/%3E%3Cpath d='M20 120h40l12-36 20 74 16-52 12 26h60' fill='none' stroke='%233d5a80' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20 158h160' stroke='%2398c1d9' stroke-width='3'/%3E%3C/svg%3E" alt="心肺功能与静息心率对话缩略图" width="200" height="200">
+            </div>
+            <div>
+              <h4>对话运动生理学者：静息心率背后的身体信号</h4>
+              <p>一场 26 分钟的深度对谈，讲清心率变异性、恢复能力与训练负荷的关系。</p>
+              <div class="h1k-mini-stats"><span>作者 顾言川</span><span>播放 12.2万</span><span>点赞 9 千</span></div>
+            </div>
+            <button class="h1k-icon-btn" data-copy aria-label="复制这篇内容链接">⧉ 分享</button>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 视频专区 -->
+  <section class="h1k-section" id="videos" style="background: linear-gradient(180deg,#ffffff,#f3fbfb 60%,#ffffff);">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">VIDEOS · 视频专区</div>
+        <h2>人体1000tr 高清视频流</h2>
+        <p>按题材筛选你关心的人体科学内容。每条视频均由创作者上传、专业顾问复核，站内提供高清播放与收藏下载入口。</p>
+      </div>
+      <div class="h1k-filter-row" id="h1kFilterRow">
+        <button class="h1k-chip is-active" data-filter="all">全部内容</button>
+        <button class="h1k-chip" data-filter="anatomy">解剖科普</button>
+        <button class="h1k-chip" data-filter="motion">运动康复</button>
+        <button class="h1k-chip" data-filter="life">生命教育</button>
+      </div>
+      <div class="h1k-video-grid" id="h1kVideoGrid">
+        <article class="h1k-video-card" data-cat="anatomy">
+          <div class="h1k-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%230b3b4f'/%3E%3Cg stroke='%233ee6c4' stroke-width='2' fill='none' opacity='.35'%3E%3Ccircle cx='320' cy='180' r='60'/%3E%3Ccircle cx='320' cy='180' r='100'/%3E%3Ccircle cx='320' cy='180' r='140'/%3E%3C/g%3E%3Cg fill='none' stroke='%23d8fbef' stroke-width='6' stroke-linecap='round'%3E%3Cpath d='M320 96v168M320 132l-46 26M320 132l46 26M320 200l-38 62M320 200l38 62'/%3E%3Ccircle cx='320' cy='82' r='22'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%23a8f0e3' font-size='18' font-weight='700'%3E%3Ctext x='34' y='330'%3E心脏的四个腔室 · 逐层拆解%3C/text%3E%3C/g%3E%3C/svg%3E" alt="心脏四个腔室解剖演示视频封面" width="640" height="360">
+            <div class="h1k-play"><span>▶</span></div>
+            <span class="h1k-duration">14:08</span>
+          </div>
+          <div class="h1k-video-body">
+            <h3>心脏的四个腔室：一次完整血液循环的逐层拆解</h3>
+            <p>从右心房到左心室，用半透明模型把体循环与肺循环讲透，配合心电图波形实时对照。</p>
+            <div class="h1k-tag-row"><span class="h1k-tag">解剖科普</span><span class="h1k-tag">高清</span></div>
+            <div class="h1k-video-foot">
+              <span>陆知衡 · 播放 46.2万 · 收藏 3.1万</span>
+              <div class="h1k-video-actions">
+                <button class="h1k-icon-btn" data-like>♡ 2.4万</button>
+                <button class="h1k-icon-btn" data-save>♡ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="h1k-video-card" data-cat="motion">
+          <div class="h1k-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%232b5876'/%3E%3Cpath d='M40 300h560' stroke='%2398c1d9' stroke-width='3'/%3E%3Cpath d='M90 300V180l60-40 60 40v120' fill='none' stroke='%23cfe9f2' stroke-width='6'/%3E%3Cpath d='M300 300V120l70-46 70 46v180' fill='none' stroke='%233ee6c4' stroke-width='6'/%3E%3Cpath d='M470 300V210l50-30 50 30v90' fill='none' stroke='%23cfe9f2' stroke-width='6' stroke-opacity='.55'/%3E%3Cg font-family='sans-serif' fill='%23e6f7fb' font-size='18' font-weight='700'%3E%3Ctext x='34' y='60'%3E城市步行 · 关节负荷样本%3C/text%3E%3C/g%3E%3C/svg%3E" alt="城市步行关节负荷实验视频封面" width="640" height="360">
+            <div class="h1k-play"><span>▶</span></div>
+            <span class="h1k-duration">22:36</span>
+          </div>
+          <div class="h1k-video-body">
+            <h3>城市步行实验：一万步之后，你的关节发生了什么</h3>
+            <p>联合运动康复机构，在真实街道环境中记录 12 位普通人的步态变化与主观疲劳反馈。</p>
+            <div class="h1k-tag-row"><span class="h1k-tag">运动康复</span><span class="h1k-tag">城市探索</span></div>
+            <div class="h1k-video-foot">
+              <span>沈一舟 · 播放 33.7万 · 收藏 1.9万</span>
+              <div class="h1k-video-actions">
+                <button class="h1k-icon-btn" data-like>♡ 1.6万</button>
+                <button class="h1k-icon-btn" data-save>♡ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="h1k-video-card" data-cat="life">
+          <div class="h1k-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23eef7f1'/%3E%3Ccircle cx='520' cy='86' r='46' fill='%23f6e2a8'/%3E%3Cpath d='M0 300c90-40 150-20 220-60s140-90 230-40 120 50 190 30v130H0z' fill='%23bfe3c8'/%3E%3Cpath d='M0 330c90-30 160-10 230-50s150-80 240-30 120 40 170 26v84H0z' fill='%237ac74f' fill-opacity='.65'/%3E%3Cg fill='none' stroke='%230b6b5f' stroke-width='6' stroke-linecap='round'%3E%3Ccircle cx='220' cy='210' r='24'/%3E%3Cpath d='M220 234v52M220 250l-32 20M220 250l32 20'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%230b4a3f' font-size='18' font-weight='700'%3E%3Ctext x='34' y='60'%3E生命教育 · 从一颗细胞开始%3C/text%3E%3C/g%3E%3C/svg%3E" alt="生命教育纪录片细胞起源封面" width="640" height="360">
+            <div class="h1k-play"><span>▶</span></div>
+            <span class="h1k-duration">17:20</span>
+          </div>
+          <div class="h1k-video-body">
+            <h3>从一颗细胞开始：写给孩子的生命教育影像课</h3>
+            <p>用温和的叙述与原创动画，讲清生命如何生长、器官如何协作，适合亲子共同观看。</p>
+            <div class="h1k-tag-row"><span class="h1k-tag">生命教育</span><span class="h1k-tag">亲子成长</span></div>
+            <div class="h1k-video-foot">
+              <span>林未晞 · 播放 28.1万 · 收藏 2.2万</span>
+              <div class="h1k-video-actions">
+                <button class="h1k-icon-btn" data-like>♡ 1.1万</button>
+                <button class="h1k-icon-btn" data-save>♡ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="h1k-video-card" data-cat="anatomy">
+          <div class="h1k-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f0f5f8'/%3E%3Cg fill='none' stroke='%233d5a80' stroke-width='4'%3E%3Cpath d='M120 300V110M120 110h180M300 110v190M300 300H120'/%3E%3C/g%3E%3Cg fill='%233d5a80'%3E%3Ccircle cx='120' cy='110' r='9'/%3E%3Ccircle cx='300' cy='110' r='9'/%3E%3C/g%3E%3Cg fill='none' stroke='%230f7c8c' stroke-width='6' stroke-linecap='round'%3E%3Cpath d='M420 300V90M420 120l60 40M420 180l-56 42'/%3E%3C/g%3E%3Ccircle cx='420' cy='72' r='20' fill='%230f7c8c'/%3E%3Cg font-family='sans-serif' fill='%233d5a80' font-size='16'%3E%3Ctext x='34' y='336'%3E神经元 · 信号传递路径绘制%3C/text%3E%3C/g%3E%3C/svg%3E" alt="神经元信号传递手绘插画封面" width="640" height="360">
+            <div class="h1k-play"><span>▶</span></div>
+            <span class="h1k-duration">11:55</span>
+          </div>
+          <div class="h1k-video-body">
+            <h3>神经元手记：一次动作电位是怎样被传递的</h3>
+            <p>手绘板逐帧演示钠钾泵与突触传递，把抽象生理过程变成可跟随的视觉笔记。</p>
+            <div class="h1k-tag-row"><span class="h1k-tag">解剖科普</span><span class="h1k-tag">创作幕后</span></div>
+            <div class="h1k-video-foot">
+              <span>顾言川 · 播放 19.8万 · 收藏 1.4万</span>
+              <div class="h1k-video-actions">
+                <button class="h1k-icon-btn" data-like>♡ 9 千</button>
+                <button class="h1k-icon-btn" data-save>♡ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="h1k-video-card" data-cat="motion">
+          <div class="h1k-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%230b6b5f'/%3E%3Cg stroke='%233ee6c4' stroke-width='3' fill='none' opacity='.5'%3E%3Cpath d='M80 300c60-80 120-80 180 0'/%3E%3Cpath d='M240 300c60-80 120-80 180 0'/%3E%3Cpath d='M400 300c60-80 120-80 180 0'/%3E%3C/g%3E%3Cg fill='none' stroke='%23e8fff9' stroke-width='8' stroke-linecap='round'%3E%3Ccircle cx='320' cy='110' r='26'/%3E%3Cpath d='M320 136v80M320 166l-44 26M320 166l44 26M320 216l-30 56M320 216l30 56'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%23d8fbef' font-size='18' font-weight='700'%3E%3Ctext x='34' y='62'%3E拉伸不是越痛越好%3C/text%3E%3C/g%3E%3C/svg%3E" alt="力量训练后拉伸误区演示封面" width="640" height="360">
+            <div class="h1k-play"><span>▶</span></div>
+            <span class="h1k-duration">09:47</span>
+          </div>
+          <div class="h1k-video-body">
+            <h3>力量训练后的拉伸误区：酸痛感不等于有效果</h3>
+            <p>康复治疗师现场纠正 6 个常见拉伸动作，讲清楚该拉伸哪里、拉多久、什么时候不该拉。</p>
+            <div class="h1k-tag-row"><span class="h1k-tag">运动康复</span><span class="h1k-tag">实用技巧</span></div>
+            <div class="h1k-video-foot">
+              <span>苏清和 · 播放 25.3万 · 收藏 2.6万</span>
+              <div class="h1k-video-actions">
+                <button class="h1k-icon-btn" data-like>♡ 1.4万</button>
+                <button class="h1k-icon-btn" data-save>♡ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="h1k-video-card" data-cat="life">
+          <div class="h1k-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f7f1e8'/%3E%3Cg fill='none' stroke='%23a06a3a' stroke-width='5' opacity='.75'%3E%3Ccircle cx='320' cy='170' r='70'/%3E%3Ccircle cx='320' cy='170' r='110'/%3E%3C/g%3E%3Cg fill='%23c98a4b'%3E%3Ccircle cx='320' cy='170' r='34'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%236b4a2a' font-size='18' font-weight='700'%3E%3Ctext x='34' y='62'%3E倾听身体的声音 · 访谈实录%3C/text%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%238a6a4a' font-size='13'%3E%3Ctext x='34' y='330'%3E慢性疼痛与情绪 / 患者真实叙述%3C/text%3E%3C/g%3E%3C/svg%3E" alt="慢性疼痛与情绪访谈纪录封面" width="640" height="360">
+            <div class="h1k-play"><span>▶</span></div>
+            <span class="h1k-duration">26:14</span>
+          </div>
+          <div class="h1k-video-body">
+            <h3>倾听身体的声音：三位慢性疼痛者的真实讲述</h3>
+            <p>一场关于身体与情绪的深度访谈，讨论疼痛如何被理解，以及生活如何重新被安排。</p>
+            <div class="h1k-tag-row"><span class="h1k-tag">生命教育</span><span class="h1k-tag">人物访谈</span></div>
+            <div class="h1k-video-foot">
+              <span>林未晞 · 播放 15.9万 · 收藏 8 千</span>
+              <div class="h1k-video-actions">
+                <button class="h1k-icon-btn" data-like>♡ 7 千</button>
+                <button class="h1k-icon-btn" data-save>♡ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌解析长文 -->
+  <section class="h1k-section" id="about" aria-labelledby="h1kAboutTitle">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">ABOUT · 品牌与内容生态</div>
+        <h2 id="h1kAboutTitle">人体1000tr 企业简介与内容生态解析</h2>
+        <p>一家持续运营的人体科学视频品牌，如何用专业与温度构建值得信赖的内容生态。</p>
+      </div>
+      <div class="h1k-article-wrap">
+        <p>人体1000tr 是一家专注于人体科学与健康教育影像的原创视频品牌，官方网站由内容事业部与医学顾问团队共同运营。自成立以来，我们坚持“真实、专业、可理解”的创作标准，围绕解剖学、运动康复、生命教育与健康生活方式四个方向持续生产高清视频内容，累计上线原创作品 1280 余部，签约专业创作者 46 位，形成覆盖科普、访谈、纪录、教程的多元内容矩阵。作为垂直领域的企业级内容平台，我们希望把复杂的人体知识转化为普通人可以理解、可以使用的日常认知。</p>
+
+        <h3>为什么叫 人体1000tr：品牌命名的初衷</h3>
+        <p>“1000tr”并不是一个技术缩写，它来自团队内部的一个讨论：一个人一生大约会经历上千次身体状态的转折——从第一次学会走路，到第一次体测不及格，从长期伏案到重新开始运动，每一次微小变化背后都有明确的生理原因。我们希望用影像记录并解释这些转折，让“看见身体”成为一件可以被学习的能力。因此，品牌名中的“人体”指向内容对象，“1000tr”指向持续观察的过程。这种命名方式也让品牌在社区中形成了稳定的辨识度，创作者会主动围绕“第 1001 次身体记录”这样的主题投稿，逐渐沉淀为品牌独有的内容语言。</p>
+
+        <div class="h1k-pull">我们相信，好的健康内容不是制造焦虑，而是让人更准确地理解自己。人体1000tr 官方网站持续运营的意义，就在于把专业信息转化为可反复观看、可查证、可分享的高品质影像。</div>
+
+        <h3>内容生产机制：医学顾问审校与创作者共创</h3>
+        <p>在人体1000tr 的内容生态中，专业性与可看性需要同时成立。我们建立了两层审校机制：第一层由签约医学顾问对解剖结构、生理机制与康复建议进行科学核对；第二层由内容委员会评估叙事节奏、画面清晰度与信息密度。每一条标有“高清”与“官方发布”的视频，都需要经过至少两轮复核。与此同时，我们鼓励创作者保留个人表达，允许手绘、三维模型、实拍演示等不同形式并存，避免内容同质化。过去一年中，平台上播放量最高的 20 部作品里，有 11 部来自普通创作者投稿，这也印证了社区共创的力量。</p>
+        <div class="h1k-article-duo">
+          <figure>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%23eef8f7'/%3E%3Cg stroke='%230f7c8c' stroke-width='3' fill='none'%3E%3Crect x='70' y='70' width='220' height='130' rx='10'/%3E%3Crect x='350' y='70' width='220' height='130' rx='10'/%3E%3Crect x='70' y='230' width='500' height='100' rx='10' stroke-dasharray='8 8'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%230b3b4f' font-size='15' font-weight='700'%3E%3Ctext x='92' y='108'%3E医学顾问审校%3C/text%3E%3Ctext x='372' y='108'%3E内容委员会评估%3C/text%3E%3Ctext x='92' y='272'%3E官方发布 · 高清上线%3C/text%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%235c7480' font-size='12'%3E%3Ctext x='92' y='132'%3E结构 / 机制 / 建议核对%3C/text%3E%3Ctext x='372' y='132'%3E节奏 / 清晰度 / 信息密度%3C/text%3E%3Ctext x='92' y='296'%3E双轮复核后进入内容库%3C/text%3E%3C/g%3E%3C/svg%3E" alt="人体1000tr 双层内容审校机制示意图" width="640" height="400">
+            <figcaption>双层审校机制示意：从结构核对到叙事评估。</figcaption>
+          </figure>
+          <figure>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%232b5876'/%3E%3Cg fill='none' stroke='%23cfe9f2' stroke-width='4' stroke-linecap='round'%3E%3Cpath d='M90 320V200M190 320V150M290 320V240M390 320V110M490 320V180M590 320V240'/%3E%3C/g%3E%3Cg fill='%233ee6c4'%3E%3Ccircle cx='90' cy='200' r='8'/%3E%3Ccircle cx='190' cy='150' r='8'/%3E%3Ccircle cx='290' cy='240' r='8'/%3E%3Ccircle cx='390' cy='110' r='8'/%3E%3Ccircle cx='490' cy='180' r='8'/%3E%3Ccircle cx='590' cy='240' r='8'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%23e6f7fb' font-size='15' font-weight='700'%3E%3Ctext x='90' y='70'%3E月度内容供给结构%3C/text%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%23a8cfdd' font-size='12'%3E%3Ctext x='70' y='356'%3E解剖%3C/text%3E%3Ctext x='170' y='356'%3E康复%3C/text%3E%3Ctext x='270' y='356'%3E访谈%3C/text%3E%3Ctext x='370' y='356'%3E纪录%3C/text%3E%3Ctext x='470' y='356'%3E教程%3C/text%3E%3Ctext x='570' y='356'%3E社区%3C/text%3E%3C/g%3E%3C/svg%3E" alt="人体1000tr 月度内容供给结构柱状示意图" width="640" height="400">
+            <figcaption>内容供给结构：多方向并行，保持生态活力。</figcaption>
+          </figure>
+        </div>
+
+        <h3>社区与创作者：让专业表达被看见</h3>
+        <p>人体1000tr 的社区不是简单的评论区，而是围绕身体认知形成的交流场。创作者可以上传作品、参与月度主题挑战、申请官方专题推荐；观众则可以通过点赞、收藏、评分与短评参与内容筛选。平台每月固定发布一次内容榜单，分为理解力榜、口碑榜与新人榜，帮助长期深耕的创作者获得稳定曝光。我们也设置了投稿与比赛通道，鼓励更多医学生、康复师、健身教练和普通记录者加入。对原创与正版的坚持，是品牌能够持续积累口碑的基础：所有引用素材均需标注来源，所有医学表述均需可追溯。我们希望用匠心打磨每一条视频，也用包容的姿态迎接多元表达。</p>
+        <p>在商业合作上，人体1000tr 坚持内容与广告分离的原则，合作品牌需通过健康类目审核，所有商业内容在显著位置标注合作信息。过去两年，我们与运动装备、康复器械、健康食品等领域的伙伴建立了长期合作，同时也为公益机构提供生命教育影像的公益授权。作为一家有社会责任感的视频企业，我们定期开放校园科普专场与线上公开课，让高清内容进入更多真实的使用场景中。</p>
+
+        <h3>未来的方向：持续运营与品质提升</h3>
+        <p>接下来的一年，人体1000tr 官方网站将重点推进三件事：一是扩充 4K 解剖素材库，让更多复杂结构有稳定的高清参考画面；二是升级创作者支持计划，为优质作者提供拍摄设备补贴与顾问对接；三是完善社区互动工具，包括评论展开、收藏夹整理与内容下载授权说明。我们希望平台始终处于“持续生长”的状态，既不追求短期流量，也不放弃对表达方式的创新。无论你是刚开始关注身体的普通学习者，还是深耕多年的专业人员，都能在这里找到值得信赖的内容。人体1000tr 愿意成为那个陪你慢慢理解身体、理解生命的存在，用真实与温暖回应每一次好奇。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="h1k-section" id="topics" style="background: linear-gradient(180deg,#f3fbfb,#ffffff);">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">SERIES · 专题企划</div>
+        <h2>人体1000tr 专题企划与系列内容</h2>
+        <p>围绕特定主题持续更新，适合按顺序观看。每个专题由官方策划、创作者协同完成，均为原创正版内容。</p>
+      </div>
+      <div class="h1k-topic-grid">
+        <article class="h1k-topic-card is-wide">
+          <figure>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%230b3b4f'/%3E%3Cg fill='none' stroke='%233ee6c4' stroke-width='3' opacity='.6'%3E%3Cpath d='M60 340V120M160 340V180M260 340V96M360 340V200M460 340V140M560 340V230'/%3E%3C/g%3E%3Cg fill='none' stroke='%23d8fbef' stroke-width='7' stroke-linecap='round'%3E%3Cpath d='M300 120v180M300 160l-52 30M300 160l52 30M300 240l-40 62M300 240l40 62'/%3E%3Ccircle cx='300' cy='100' r='24'/%3E%3C/g%3E%3Cg font-family='sans-serif' fill='%23a8f0e3' font-size='19' font-weight='800'%3E%3Ctext x='40' y='66'%3E骨骼与关节 · 第二季%3C/text%3E%3C/g%3E%3C/svg%3E" alt="骨骼与关节第二季专题企划主视觉" width="640" height="400">
+          </figure>
+          <div>
+            <span class="h1k-topic-status">正在更新 · 第 4 集已上线</span>
+            <h3>骨骼与关节 · 第二季</h3>
+            <p>承接第一季的解剖基础，本季聚焦肩、膝、髋三大关节的稳定性机制与常见损伤场景。每集包含三维结构演示、真人动作对照与康复建议，由医学顾问逐帧审校，适合教练、康复师与运动爱好者系统学习。</p>
+            <ul class="h1k-topic-items">
+              <li>第 4 集：肩关节如何在 180° 抬手中保持稳定</li>
+              <li>第 3 集：膝关节半月板的受力分布与旋转风险</li>
+              <li>第 2 集：髋关节活动度与步态代偿的关系</li>
+            </ul>
+          </div>
+        </article>
+        <article class="h1k-topic-card">
+          <span class="h1k-topic-status">正在更新 · 每周三</span>
+          <h3>久坐自救计划</h3>
+          <p>面向办公室人群的轻量康复企划，每期给出 5 分钟内可完成的调整动作，并解释背后的身体逻辑。</p>
+          <ul class="h1k-topic-items">
+            <li>一张椅子如何改变你的脊柱排列</li>
+            <li>颈肩僵硬的三个真实诱因</li>
+            <li>午休十分钟的胸椎活动方案</li>
+          </ul>
+        </article>
+        <article class="h1k-topic-card">
+          <span class="h1k-topic-status is-soon">报名中 · 12 月开课</span>
+          <h3>运动康复实战营</h3>
+          <p>由平台联合康复机构推出的系列课程，包含案例拆解、动作评估与作业点评，报名后可获取完整学习资料。</p>
+          <ul class="h1k-topic-items">
+            <li>跑步损伤的评估流程与记录方法</li>
+            <li>力量训练中的关节保护策略</li>
+            <li>恢复期训练强度的判断标准</li>
+          </ul>
+        </article>
+        <article class="h1k-topic-card">
+          <span class="h1k-topic-status">已完结 · 全 6 集</span>
+          <h3>生命教育影像课</h3>
+          <p>面向亲子家庭的生命教育系列，用温和的影像语言讲述生长、呼吸、循环与感知，帮助孩子建立身体认知。</p>
+          <ul class="h1k-topic-items">
+            <li>从一颗细胞开始</li>
+            <li>呼吸是怎样发生的</li>
+            <li>为什么心脏会一直跳动</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="h1k-section" id="authors">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">CREATORS · 创作者矩阵</div>
+        <h2>人体1000tr 签约创作者</h2>
+        <p>他们来自医学、康复、运动与影像创作的不同背景，共同构建平台的专业内容生态。</p>
+      </div>
+      <div class="h1k-author-grid">
+        <article class="h1k-author-card">
+          <div class="h1k-avatar a1">陆</div>
+          <div>
+            <div class="h1k-author-name">陆知衡</div>
+            <div class="h1k-author-field">解剖科普 / 三维演示</div>
+            <p>医学影像背景出身，擅长把复杂解剖结构做成可跟随的视觉路径。坚持逐帧标注与术语注释，作品被多所院校作为课堂辅助素材使用，是平台理解力榜的常驻作者。</p>
+            <div class="h1k-author-stats"><span>作品 186</span><span>粉丝 42.6万</span><span>获赞 213万</span></div>
+            <button class="h1k-author-btn" data-author="陆知衡">查看作者档案</button>
+          </div>
+        </article>
+        <article class="h1k-author-card">
+          <div class="h1k-avatar a2">沈</div>
+          <div>
+            <div class="h1k-author-name">沈一舟</div>
+            <div class="h1k-author-field">运动康复 / 步态分析</div>
+            <p>康复治疗师，长期在真实运动场景中做步态与负荷记录。视频风格偏实验性，喜欢用数据说话，也乐于展示失败与调整的过程，帮助观众理解“个体差异”这件事。</p>
+            <div class="h1k-author-stats"><span>作品 142</span><span>粉丝 31.2万</span><span>获赞 168万</span></div>
+            <button class="h1k-author-btn" data-author="沈一舟">查看作者档案</button>
+          </div>
+        </article>
+        <article class="h1k-author-card">
+          <div class="h1k-avatar a3">苏</div>
+          <div>
+            <div class="h1k-author-name">苏清和</div>
+            <div class="h1k-author-field">姿势管理 / 实用技巧</div>
+            <p>专注久坐人群与轻运动场景，擅长把康复动作拆成办公室也能完成的步骤。表达直接、节奏明快，评论区常见“跟着做了一周”的反馈，是口碑榜上互动率最高的作者之一。</p>
+            <div class="h1k-author-stats"><span>作品 118</span><span>粉丝 27.8万</span><span>获赞 145万</span></div>
+            <button class="h1k-author-btn" data-author="苏清和">查看作者档案</button>
+          </div>
+        </article>
+        <article class="h1k-author-card">
+          <div class="h1k-avatar a4">顾</div>
+          <div>
+            <div class="h1k-author-name">顾言川</div>
+            <div class="h1k-author-field">生理科普 / 手绘动画</div>
+            <p>手绘与动画双修的科普作者，习惯用纸质笔记的方式讲清信号传递与代谢过程。内容节奏舒缓，信息密度高，适合反复观看，多次入选平台月度精品内容推荐。</p>
+            <div class="h1k-author-stats"><span>作品 96</span><span>粉丝 23.4万</span><span>获赞 121万</span></div>
+            <button class="h1k-author-btn" data-author="顾言川">查看作者档案</button>
+          </div>
+        </article>
+        <article class="h1k-author-card">
+          <div class="h1k-avatar a5">林</div>
+          <div>
+            <div class="h1k-author-name">林未晞</div>
+            <div class="h1k-author-field">生命教育 / 人物访谈</div>
+            <p>纪录片导演，关注身体经验与情感表达之间的关系。拍摄时习惯长时间跟访，作品节奏克制，善于保留真实的停顿与沉默，让受访者的讲述本身成为内容主体。</p>
+            <div class="h1k-author-stats"><span>作品 74</span><span>粉丝 19.6万</span><span>获赞 98万</span></div>
+            <button class="h1k-author-btn" data-author="林未晞">查看作者档案</button>
+          </div>
+        </article>
+        <article class="h1k-author-card">
+          <div class="h1k-avatar a6">周</div>
+          <div>
+            <div class="h1k-author-name">周见山</div>
+            <div class="h1k-author-field">户外运动 / 体能训练</div>
+            <p>户外教练与体能训练师，擅长在真实地形中讲解身体如何适应环境变化。作品常包含装备选择、补给策略与风险预案，是平台新人榜的活跃作者。</p>
+            <div class="h1k-author-stats"><span>作品 88</span><span>粉丝 16.9万</span><span>获赞 83万</span></div>
+            <button class="h1k-author-btn" data-author="周见山">查看作者档案</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 社区口碑：双列短评 -->
+  <section class="h1k-section" id="voices" style="background: linear-gradient(180deg,#ffffff,#f0f9f8);">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">VOICES · 社区口碑</div>
+        <h2>来自人体1000tr 社区的真实反馈</h2>
+        <p>不同身份、不同观看目的的用户，记录下他们与平台内容相处的片段。</p>
+      </div>
+      <div class="h1k-comment-grid">
+        <article class="h1k-comment">
+          <div class="h1k-comment-top"><span class="h1k-cavatar">陈</span><b>陈默</b><span>康复治疗师 · 2 天前</span></div>
+          <p>把《骨骼与关节》第二季的肩关节那一集放给同事看，结构标注比我自己画的 PPT 清楚太多。希望后面能补一节关于肩袖损伤的分级演示。</p>
+          <div class="h1k-cmeta"><span>有帮助</span><span>回复 3</span></div>
+        </article>
+        <article class="h1k-comment">
+          <div class="h1k-comment-top"><span class="h1k-cavatar">许</span><b>许小满</b><span>健身爱好者 · 3 天前</span></div>
+          <p>跟着苏清和的久坐自救计划做了一周，肩颈确实松了一些。最喜欢他讲清楚“为什么要这样动”，不是单纯让人照做。</p>
+          <div class="h1k-cmeta"><span>有帮助</span><span>回复 1</span></div>
+        </article>
+        <article class="h1k-comment">
+          <div class="h1k-comment-top"><span class="h1k-cavatar">阿</span><b>阿禾</b><span>亲子用户 · 5 天前</span></div>
+          <p>和孩子一起看了生命教育影像课，他对“心脏为什么一直跳”特别好奇，我们后来又重看了两遍。这类内容真的适合家庭场景。</p>
+          <div class="h1k-cmeta"><span>有帮助</span><span>回复 4</span></div>
+        </article>
+        <article class="h1k-comment">
+          <div class="h1k-comment-top"><span class="h1k-cavatar">林</span><b>林间风</b><span>医学生 · 1 周前</span></div>
+          <p>信息准确度在同类内容里算很稳的，术语也都有注释。唯一建议是部分视频可以加一个章节跳转，复习时更方便定位。</p>
+          <div class="h1k-cmeta"><span>有帮助</span><span>回复 2</span></div>
+        </article>
+        <article class="h1k-comment">
+          <div class="h1k-comment-top"><span class="h1k-cavatar">唐</span><b>唐糖</b><span>普通观众 · 1 周前</span></div>
+          <p>画质很舒服，没有那种故意吓人的解剖画面。本来只是随便点进来，结果一口气看了四集，现在开始关注自己的坐姿了。</p>
+          <div class="h1k-cmeta"><span>有帮助</span><span>回复 0</span></div>
+        </article>
+        <article class="h1k-comment">
+          <div class="h1k-comment-top"><span class="h1k-cavatar">赵</span><b>赵一鸣</b><span>跑步教练 · 2 周前</span></div>
+          <p>步态实验那期我直接转给了学员群。用真实街道环境做记录，比实验室数据更容易让人理解，落地姿势那部分讲得很实在。</p>
+          <div class="h1k-cmeta"><span>有帮助</span><span>回复 5</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 辅助区：动态 + 合作 + FAQ -->
+  <section class="h1k-section" id="faq">
+    <div class="h1k-container">
+      <div class="h1k-section-head">
+        <div class="h1k-eyebrow">UPDATES &amp; SUPPORT</div>
+        <h2>企业动态、合作与常见问题</h2>
+        <p>关注人体1000tr 官方发布的最新进展，也欢迎了解与我们同行的合作伙伴与支持渠道。</p>
+      </div>
+      <div class="h1k-aux-grid">
+        <div>
+          <h3 style="font-size:19px;color:var(--h1k-deep);margin-bottom:8px;">企业动态</h3>
+          <ul class="h1k-news-list">
+            <li>
+              <span class="h1k-news-date">11-18</span>
+              <div><h4>「骨骼与关节·第二季」新增 4 集高清内容</h4><p>肩、膝、髋与上肢链条章节同步上线，支持逐帧查看与结构注释。</p></div>
+            </li>
+            <li>
+              <span class="h1k-news-date">11-10</span>
+              <div><h4>运动康复实战营开放报名</h4><p>限额 200 人，包含 8 节直播课与 2 次作业点评，报名入口在投稿弹窗内。</p></div>
+            </li>
+            <li>
+              <span class="h1k-news-date">10-29</span>
+              <div><h4>平台新增「内容章节跳转」功能</h4><p>部分长视频已支持章节定位，后续将覆盖全部精品内容。</p></div>
+            </li>
+            <li>
+              <span class="h1k-news-date">10-15</span>
+              <div><h4>与三家康复机构达成内容合作</h4><p>联合开发案例拆解内容，共同完善康复知识库的实用性与可验证性。</p></div>
+            </li>
+          </ul>
+          <h3 style="font-size:19px;color:var(--h1k-deep);margin:22px 0 10px;">合作品牌</h3>
+          <div class="h1k-partner-wall">
+            <span class="h1k-partner">衡动康复中心</span>
+            <span class="h1k-partner">青野运动实验室</span>
+            <span class="h1k-partner">白露健康食品</span>
+            <span class="h1k-partner">城市徒步协会</span>
+            <span class="h1k-partner">启明生命教育基金</span>
+          </div>
+        </div>
+        <div class="h1k-faq">
+          <h3 style="font-size:19px;color:var(--h1k-deep);margin-bottom:12px;">常见问题</h3>
+          <details open>
+            <summary>人体1000tr 的视频适合哪些人观看？</summary>
+            <p>内容面向普通学习者、医学生、康复师、健身教练与亲子家庭。每个系列都标注了难度与建议观看顺序，可按需选择。</p>
+          </details>
+          <details>
+            <summary>平台内容是否经过专业审核？</summary>
+            <p>所有标有官方发布的内容均经过医学顾问与内容委员会双轮复核，涉及康复建议的视频会标注适用人群与风险提示。</p>
+          </details>
+          <details>
+            <summary>我可以投稿自己的视频吗？</summary>
+            <p>可以。点击页面内的投稿入口，填写作品信息与医学依据说明，审核通过后将进入内容库，并有机会获得专题推荐。</p>
+          </details>
+          <details>
+            <summary>视频是否支持下载？</summary>
+            <p>部分精品内容提供官方下载授权，需在视频页申请。请勿将内容用于商业用途，转载需注明来源与作者。</p>
+          </details>
+          <details>
+            <summary>内容更新频率是怎样的？</summary>
+            <p>主专题保持每周更新，社区投稿每日审核。每月会发布一次内容榜单，同步更新理解力榜、口碑榜与新人榜。</p>
+          </details>
+          <details>
+            <summary>如何参与创作者比赛与投票？</summary>
+            <p>比赛入口在首页投稿弹窗与创作者页面同步开放，投票资格需完成一次收藏或评价行为，结果将在官方发布渠道公示。</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 投稿 CTA -->
+  <section class="h1k-section" id="submit" style="padding-top:0;">
+    <div class="h1k-container">
+      <div class="h1k-cta">
+        <div>
+          <h2>把你的人体观察，变成一部作品</h2>
+          <p>无论是一段解剖笔记、一次康复记录，还是一场关于身体的访谈，欢迎上传到人体1000tr。原创与真实，是这里最看重的品质。</p>
+        </div>
+        <button class="h1k-btn h1k-btn-ghost" id="h1kSubmitBtn">投稿 / 报名入口</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="h1k-footer">
+  <div class="h1k-container">
+    <div class="h1k-footer-grid">
+      <div>
+        <div class="h1k-logo">
+          <span class="h1k-logo-mark">1000tr</span>
+          <span>人体1000tr<small>HUMAN BODY</small></span>
+        </div>
+        <p style="margin:6px 0 0;max-width:280px;">人体1000tr 官方网站，专注人体科学与健康教育的高清视频品牌，持续运营原创内容生态，让身体认知更专业、更值得信赖。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#focus">焦点内容</a></li>
+          <li><a href="#videos">视频专区</a></li>
+          <li><a href="#topics">专题企划</a></li>
+          <li><a href="#authors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>支持与参与</h4>
+        <ul>
+          <li><a href="#faq">帮助中心</a></li>
+          <li><a href="#submit">投稿入口</a></li>
+          <li><a href="#voices">社区口碑</a></li>
+          <li><a href="#about">品牌解析</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系与说明</h4>
+        <p style="margin:0 0 8px;">合作与内容授权：contact@human1000tr.example</p>
+        <p style="margin:0 0 8px;">商务合作请注明机构与用途，我们将在 3 个工作日内回复。</p>
+        <p style="margin:0;">所有视频为原创或已获授权，转载请注明出处。</p>
+      </div>
+    </div>
+    <div class="h1k-footer-bottom">
+      <span>© 2026 人体1000tr 官方网站 · 版权所有 · 持续运营中</span>
+      <span>健康科普内容仅供参考，不能替代专业医疗诊断</span>
+      <span>内容备案：H1K-2026-1104</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="h1k-toast" id="h1kToast" role="status" aria-live="polite"></div>
+
+<!-- 弹窗：作者档案 / 投稿 -->
+<div class="h1k-modal-mask" id="h1kModalMask">
+  <div class="h1k-modal" id="h1kModal" role="dialog" aria-modal="true" aria-labelledby="h1kModalTitle">
+    <h3 id="h1kModalTitle">标题</h3>
+    <div id="h1kModalBody"></div>
+    <div class="h1k-modal-actions">
+      <button class="h1k-btn h1k-btn-ghost" id="h1kModalClose" type="button">关闭</button>
+      <button class="h1k-btn h1k-btn-primary" id="h1kModalOk" type="button">确认</button>
+    </div>
+  </div>
+</div>
+
+<button class="h1k-top-btn" id="h1kTopBtn" aria-label="回到顶部">↑</button>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var burger = document.getElementById("h1kBurger");
+  var nav = document.getElementById("h1kNav");
+  if (burger && nav) {
+    burger.addEventListener("click", function () {
+      var open = nav.classList.toggle("is-open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.textContent = open ? "✕" : "☰";
+    });
+    nav.addEventListener("click", function (e) {
+      if (e.target.tagName === "A" && nav.classList.contains("is-open")) {
+        nav.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+        burger.textContent = "☰";
+      }
+    });
+  }
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById("h1kToast");
+  var toastTimer = null;
+  function showToast(msg) {
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toast.classList.remove("is-show");
+    }, 2400);
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById("h1kSearchInput");
+  var searchBtn = document.getElementById("h1kSearchBtn");
+  var searchFeedback = document.getElementById("h1kSearchFeedback");
+  function doSearch() {
+    var q = (searchInput && searchInput.value || "").trim();
+    if (!q) {
+      searchFeedback.textContent = "请输入关键词，例如：肩关节、步态、生命教育。";
+      searchFeedback.classList.add("is-on");
+      return;
+    }
+    searchFeedback.textContent = "已在人体1000tr 内容库中为「" + q + "」匹配到 12 条相关高清视频，可在视频专区按题材继续筛选。";
+    searchFeedback.classList.add("is-on");
+    showToast("搜索已提交：" + q);
+  }
+  if (searchBtn) searchBtn.addEventListener("click", doSearch);
+  if (searchInput) {
+    searchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") doSearch();
+    });
+  }
+
+  /* ---------- 点赞 / 收藏切换 ---------- */
+  function toggleLike(btn) {
+    var on = btn.classList.toggle("is-liked");
+    var txt = btn.textContent.replace(/[♡♥]/g, "").trim();
+    var numMatch = txt.match(/[\d.]+[万千]?/);
+    var base = txt;
+    if (numMatch) {
+      var n = numMatch[0];
+      btn.textContent = (on ? "♥ " : "♡ ") + base.replace(n, n);
+    } else {
+      btn.textContent = (on ? "♥ " : "♡ ") + txt;
+    }
+    if (!btn.dataset.likedOnce) {
+      btn.dataset.likedOnce = "1";
+      btn.textContent = btn.textContent.replace(/赞/, on ? "已赞" : "赞");
+    }
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    showToast(on ? "已点赞，感谢支持原创内容" : "已取消点赞");
+  }
+  function toggleSave(btn) {
+    var on = btn.classList.toggle("is-saved");
+    var txt = btn.textContent.replace(/[♡♥]/g, "").trim();
+    if (/收藏/.test(txt)) {
+      btn.textContent = (on ? "♥ " : "♡ ") + "收藏";
+    } else if (/藏/.test(txt)) {
+      btn.textContent = (on ? "♥ " : "♡ ") + "藏";
+    } else {
+      btn.textContent = (on ? "♥ " : "♡ ") + txt;
+    }
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    showToast(on ? "已加入收藏夹，可在个人中心查看" : "已取消收藏");
+  }
+
+  document.querySelectorAll("[data-like]").forEach(function (btn) {
+    btn.addEventListener("click", function () { toggleLike(btn); });
+  });
+  document.querySelectorAll("[data-save]").forEach(function (btn) {
+    btn.addEventListener("click", function () { toggleSave(btn); });
+  });
+
+  /* ---------- 复制链接 / 分享提示 ---------- */
+  document.querySelectorAll("[data-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var title = btn.closest("article") ? btn.closest("article").querySelector("h3, h4") : null;
+      var text = (title ? title.textContent.trim() : "人体1000tr 精品内容") + " — 人体1000tr 官方网站";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          showToast("内容信息已复制，可分享给同好");
+        }).catch(function () {
+          showToast("已生成分享文案：" + text);
+        });
+      } else {
+        showToast("已生成分享文案：" + text);
+      }
+    });
+  });
+
+  /* ---------- 视频题材筛选 ---------- */
+  var filterRow = document.getElementById("h1kFilterRow");
+  var videoCards = document.querySelectorAll("#h1kVideoGrid .h1k-video-card");
+  if (filterRow) {
+    filterRow.addEventListener("click", function (e) {
+      var chip = e.target.closest(".h1k-chip");
+      if (!chip) return;
+      filterRow.querySelectorAll(".h1k-chip").forEach(function (c) {
+        c.classList.remove("is-active");
+      });
+      chip.classList.add("is-active");
+      var f = chip.dataset.filter;
+      var count = 0;
+      videoCards.forEach(function (card) {
+        var show = f === "all" || card.dataset.cat === f;
+        card.style.display = show ? "" : "none";
+        if (show) count++;
+      });
+      showToast("已筛选出 " + count + " 条相关视频");
+    });
+  }
+
+  /* ---------- 弹窗 ---------- */
+  var mask = document.getElementById("h1kModalMask");
+  var modalTitle = document.getElementById("h1kModalTitle");
+  var modalBody = document.getElementById("h1kModalBody");
+  var modalOk = document.getElementById("h1kModalOk");
+  var modalClose = document.getElementById("h1kModalClose");
+  var okHandler = null;
+
+  function openModal(title, bodyHTML, okText, onOk) {
+    modalTitle.textContent = title;
+    modalBody.innerHTML = bodyHTML;
+    modalOk.textContent = okText || "确认";
+    okHandler = onOk || null;
+    mask.classList.add("is-open");
+  }
+  function closeModal() {
+    mask.classList.remove("is-open");
+    okHandler = null;
+  }
+  if (modalClose) modalClose.addEventListener("click", closeModal);
+  if (mask) {
+    mask.addEventListener("click", function (e) {
+      if (e.target === mask) closeModal();
+    });
+    mask.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeModal();
+    });
+  }
+  if (modalOk) {
+    modalOk.addEventListener("click", function () {
+      if (okHandler) okHandler();
+      else closeModal();
+    });
+  }
+
+  var authorData = {
+    "陆知衡": "医学影像背景，2019 年加入人体1000tr。代表作《骨骼与关节》系列，擅长三维解剖演示与术语注释。坚持每条视频附结构图纸，累计被院校课堂引用 340 余次。",
+    "沈一舟": "康复治疗师，专注步态与运动负荷研究。作品以真实场景实验为主，习惯公开数据与调整过程，代表作《城市步行实验》《跑者膝关节》系列。",
+    "苏清和": "姿势管理与轻运动内容作者，擅长把康复动作拆解为办公场景可执行步骤。作品节奏明快，评论区互动活跃，是社区口碑榜高频作者。",
+    "顾言川": "手绘与动画科普作者，专注生理机制可视化。作品信息密度高、节奏舒缓，适合反复观看，多次入选平台月度精品内容。",
+    "林未晞": "纪录片导演，关注身体经验与情感表达。拍摄风格克制，善于用长时间跟访呈现真实讲述，代表作《倾听身体的声音》。",
+    "周见山": "户外教练与体能训练师，聚焦真实环境下的身体适应与风险管理。作品包含装备、补给与预案，是新人榜活跃作者。"
+  };
+  document.querySelectorAll("[data-author]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.dataset.author;
+      var desc = authorData[name] || "人体1000tr 签约创作者，持续输出人体科学相关原创内容。";
+      openModal("创作者档案 · " + name,
+        "<p>" + desc + "</p><p style='margin-top:10px;font-size:12.5px;color:#8aa2ab;'>该创作者已通过平台原创与专业资质审核。</p>",
+        "关注该创作者",
+        function () {
+          closeModal();
+          showToast("已关注 " + name + "，新作品将优先推荐");
+        });
+    });
+  });
+
+  function openSubmitModal() {
+    openModal("投稿与报名",
+      "<p>填写基本信息，我们会根据内容方向安排审核与顾问对接。</p>" +
+      "<label for='h1kFormName'>称呼</label>" +
+      "<input id='h1kFormName' type='text' placeholder='请输入你的称呼'>" +
+      "<label for='h1kFormTopic'>内容方向</label>" +
+      "<input id='h1kFormTopic' type='text' placeholder='例如：解剖科普 / 运动康复 / 生命教育'>" +
+      "<label for='h1kFormNote'>作品简介</label>" +
+      "<textarea id='h1kFormNote' rows='3' placeholder='简述作品内容与医学依据'></textarea>",
+      "提交投稿",
+      function () {
+        var nameInput = document.getElementById("h1kFormName");
+        var topicInput = document.getElementById("h1kFormTopic");
+        var name = nameInput && nameInput.value.trim();
+        var topic = topicInput && topicInput.value.trim();
+        if (!name || !topic) {
+          showToast("请补全称呼与内容方向");
+          return;
+        }
+        closeModal();
+        showToast("投稿已提交，审核结果将通过站内消息通知");
+      });
+  }
+  var submitBtn = document.getElementById("h1kSubmitBtn");
+  var submitBtnHero = document.getElementById("h1kSubmitBtnHero");
+  if (submitBtn) submitBtn.addEventListener("click", openSubmitModal);
+  if (submitBtnHero) submitBtnHero.addEventListener("click", openSubmitModal);
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById("h1kTopBtn");
+  window.addEventListener("scroll", function () {
+    if (topBtn) {
+      if (window.scrollY > 480) topBtn.classList.add("is-show");
+      else topBtn.classList.remove("is-show");
+    }
+  }, { passive: true });
+  if (topBtn) {
+    topBtn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  /* ---------- 数字滚动（首屏数据） ---------- */
+  var counted = false;
+  function runCount() {
+    if (counted) return;
+    var stats = document.querySelectorAll(".h1k-stat b[data-count]");
+    if (!stats.length) return;
+    counted = true;
+    stats.forEach(function (el) {
+      var target = parseInt(el.dataset.count, 10);
+      if (isNaN(target)) return;
+      var suffix = el.textContent.replace(/[\d]/g, "");
+      var start = 0;
+      var dur = 900;
+      var t0 = performance.now();
+      function step(t) {
+        var p = Math.min(1, (t - t0) / dur);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(start + (target - start) * eased) + suffix;
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          runCount();
+          io.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+    var heroStats = document.querySelector(".h1k-hero-stats");
+    if (heroStats) io.observe(heroStats);
+  } else {
+    runCount();
+  }
+})();
+</script>
+</body>
+            </html>
